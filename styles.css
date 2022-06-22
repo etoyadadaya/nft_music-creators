@@ -206,10 +206,10 @@ body, html {
 .first-section {
     display: flex;
     gap: 100px;
-    height: 650px;
 }
 
 .first-wrap {
+    height: 600px;
     display: flex;
     gap: 25px;
     flex-direction: column;
@@ -348,7 +348,7 @@ body, html {
 .third-wrap {
     display: flex;
     width: 1050px;
-    height: 700px;
+    height: 650px;
 }
 
 .third-left {
@@ -456,9 +456,9 @@ body, html {
 
 .fourth-wrap {
     display: flex;
-    gap: 50px;
+    gap: 80px;
     width: 1050px;
-    height: 700px;
+    height: 580px;
 }
 
 .fourth-wrapper {
@@ -470,7 +470,7 @@ body, html {
     display: flex;
     margin: 0 auto;
     align-items: center;
-    height: 600px;
+    height: 580px;
     width: 550px;
 }
 
@@ -478,7 +478,7 @@ body, html {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    height: 600px;
+    height: 580px;
     width: 500px;
 }
 
@@ -529,4 +529,103 @@ body, html {
     border-radius: 10px 70px;
     width: 235px;
     height: 158px;
+}
+
+
+
+
+.fifth-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 800px;
+    width: 1050px;
+}
+
+.fifth-block {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #FF7070;
+    border: 1px solid transparent;
+    box-shadow: 0 0 6px rgba(252, 79, 79, 0.5);
+    width: 1050px;
+    height: 350px;
+}
+
+.block-text {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.block-info {
+    display: flex;
+    justify-content: center;
+    color: #121212;
+}
+
+.block-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #000000;
+    color: #FF7070;
+}
+
+.fifth-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifth-blank {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #FC5050;
+    border: 1px solid transparent;
+    box-shadow: 0 0 6px rgba(252, 79, 79, 0.5);
+    border-radius: 30px;
+    height: 250px;
+    width: 450px;
+}
+
+.blank-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blank-title {
+    font-size: 36px;
+    color: #000000;
+}
+
+.button-wrap {
+    display: flex;
+    gap: 50px;
+}
+
+.blank-img {
+    width: 50px;
+    height: 60px;
+}
+
+.blank-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    width: 150px;
+    height: 60px;
 }
