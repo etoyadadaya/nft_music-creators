@@ -309,6 +309,8 @@ body, html {
 }
 
 .second-content {
+    padding-left: 10px;
+    padding-right: 10px;
     border: 1px solid transparent;
     box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
     border-radius: 15px;
@@ -323,6 +325,24 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.content-card:hover {
+    background-color: #FF7070;
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.content-card:hover .card-blank {
+    background-color: black;
+}
+
+.content-card:hover .card-img {
+    filter: invert(100%);
+}
+
+.content-card:hover .card-title {
+    color: black;
 }
 
 .card-blank {
@@ -493,6 +513,22 @@ body, html {
     background-color: #10151e;
     width: 90px;
     height: 140px;
+}
+
+.fourth-tab:hover {
+    background-color: #FF7070;
+}
+
+.fourth-tab:hover .blank {
+    background-color: black;
+}
+
+.fourth-tab:hover .third-img {
+    filter: invert(100%);
+}
+
+.fourth-tab:hover .fourth-text {
+    color: black;
 }
 
 .fourth-text {
